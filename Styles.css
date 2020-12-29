@@ -2,7 +2,7 @@ input[type=text],
 [type=tel],
 [type=email],
 select {
-    width: 50%;
+    width: 35%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -24,13 +24,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #2f312f;
-}
-
-div {
-    width: 55%;
-    background-size: cover;
-    background-image: url("https://img.etimg.com/thumb/msid-77343232,width-650,imgsize-467517,,resizemode-4,quality-100/the-vision-s-can-go-from-0-100-kmph-in-4-8-seconds-and-can-hit-a-top-speed-of-240-kmph-.jpg");
-    padding: 20px;
 }
 
 .textcolor {
