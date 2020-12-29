@@ -46,8 +46,22 @@
   }
   body {
       text-align: center;
+      text-
   }
  .crcard {
     display: flex;
     justify-content: space-around;
 }
+.carback{
+    background-image: url(https://wallpaperaccess.com/full/33110.jpg);
+    background-size: cover;
+
+}
+img {
+    border-radius: 50%;
+}
+.textcolor {
+    color: #1872a6;
+    font-weight: bold;
+}
+
