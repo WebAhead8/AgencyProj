@@ -4,14 +4,14 @@ body {
 }
 
 header {
-    padding: 20px 0;
+
     background-color: #000000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
 }
 
 .container {
     padding: 0 20px;
-    max-width: 960px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -147,13 +147,15 @@ footer {
 }
 
 footer p {
-    padding: 40px 0;
-    text-align: center;
-    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer img {
-    width: 44px;
+    width: 100px;
+    
 }
 
 input[type=text],
@@ -261,8 +263,12 @@ input[type=submit]:hover {
     justify-content: space-around;
 }
 
-img {
+.imghead {
     border-radius: 50%;
+    block-size: 130px;
+}
+.imgfoteer{
+  border-radius: 50%;
 }
 
 .textcolor1 {
