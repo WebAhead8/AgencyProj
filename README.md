@@ -21,6 +21,3 @@ The implementation strives to be simple and free of unnecessary dependencies.
 - `/main.css` Implementation of the css styles for main page 
 
 
-## License
-
-[MIT](LICENSE)
