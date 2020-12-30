@@ -54,17 +54,15 @@
 img {
     border-radius: 50%;
 }
-.textcolor {
-    color: #1872a6;
-    font-weight: bold;
+.textcolor1 {
+    color: #cf7575;
+    font-weight: bolder;
     margin-left: 2%;
+    font-size: 35px;
 }
 
 h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: azure;
-}
-.backcar{
-  background: url(http://crispme.com/wp-content/uploads/Header340.jpg?pass) center fixed;
-  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
 }
