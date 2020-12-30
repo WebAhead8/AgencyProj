@@ -1,125 +1,152 @@
 body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
+
 header {
-  padding: 20px 0;
-  background-color: #000000;
-  box-shadow: 0 4px 6px rgba(0,0,0,.2);  
+    padding: 20px 0;
+    background-color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
 }
+
 .container {
-  padding: 0 20px;
-  max-width: 960px;
-  margin: 0 auto;
+    padding: 0 20px;
+    max-width: 960px;
+    margin: 0 auto;
 }
+
 .logo-box {
-  float: left;
-  margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 }
+
 .logo-box a {
-  outline: none;
-  display: block;
+    outline: none;
+    display: block;
 }
-.logo-box img {display: block;}
+
+.logo-box img {
+    display: block;
+}
+
 nav {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
+
 nav li {
-  display: inline-block;
-  margin-left: 25px;
-  height: 70px;
-  line-height: 70px;
-  transition: .5s linear;
+    display: inline-block;
+    margin-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    transition: .5s linear;
 }
+
 nav a {
-  text-decoration: none;
-  display: block;
-  position: relative;
-  color: #ffffff;
-  text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
 }
+
 nav a:after {
-  content: "";
-  width: 0;
-  height: 2px;
-  position: absolute;
-  left: 0;
-  bottom: 15px;
-  background: #868686;
-  transition: width .5s linear;  
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    background: #868686;
+    transition: width .5s linear;
 }
-nav a:hover:after {width: 100%;}
+
+nav a:hover:after {
+    width: 100%;
+}
 
 @media screen and (max-width: 660px) {
-  header {text-align: center;}
-  .logo-box {
-    float: none;
-    display: inline-block;
-    margin: 0 0 16px 0;
+    header {
+        text-align: center;
+    }
+    .logo-box {
+        float: none;
+        display: inline-block;
+        margin: 0 0 16px 0;
+    }
+    ul {
+        float: none;
+    }
+    nav li:first-of-type {
+        margin-left: 0;
+    }
 }
-  ul {float: none;}
-  nav li:first-of-type {margin-left: 0;}
-}
+
 @media screen and (max-width: 550px) {
-nav {overflow: visible;}
-nav li {
-  display: block;
-  margin: 0;
-  height: 40px;
-  line-height: 40px;
+    nav {
+        overflow: visible;
+    }
+    nav li {
+        display: block;
+        margin: 0;
+        height: 40px;
+        line-height: 40px;
+    }
+    nav li:hover {
+        background: rgba(0, 0, 0, .1);
+    }
+    nav a:after {
+        content: none;
+    }
+    .full-width-img,
+    .about-us-section,
+    .contact-us-section {
+        padding-top: 110px;
+        height: 1000px;
+    }
 }
-nav li:hover {background: rgba(0,0,0,.1);}
-nav a:after {content: none;}
-.full-width-img, .about-us-section,.contact-us-section {
-  padding-top: 110px;
-  height: 1000px;
-}
-}
-
-
-
 
 .full-width-img {
-  background: url(https://wallpaperaccess.com/full/224770.jpg)  center center / cover no-repeat;
-  padding-top: 100px;
-  height: 700px;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  padding-left: 20%;
-  color: #fff;
-  padding-right: 18%;
-}
-.about-us-section{
-
-  background-color: #000000;
-  background-size: cover;
-  text-align: center;
-  padding-top: 80px;
-  height: 700px;
-  color: #fff;
-
-}
-.contact-us-section{
-  padding-top: 80px;
-  height: 700px;
-  color: rgb(0, 0, 0);
-  background: url(https://www.citycars.gr/wp-content/uploads/2019/01/City_Bwm.jpg) center center / cover no-repeat;
-  font-size: 20px;
+    background: url(https://wallpaperaccess.com/full/224770.jpg) center center / cover no-repeat;
+    padding-top: 100px;
+    height: 700px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 20%;
+    color: #fff;
+    padding-right: 18%;
 }
 
-
-footer{
-  background-color: #000000;
-  color: #fcfcfc;
-  margin: 0;
+.about-us-section {
+    background-color: #000000;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    height: 700px;
+    color: #fff;
 }
-  footer p {
+
+.contact-us-section {
+    padding-top: 80px;
+    height: 700px;
+    color: rgb(0, 0, 0);
+    background: url(https://www.citycars.gr/wp-content/uploads/2019/01/City_Bwm.jpg) center center / cover no-repeat;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fcfcfc;
+    margin: 0;
+}
+
+footer p {
     padding: 40px 0;
     text-align: center;
     margin: 0;
@@ -132,8 +159,8 @@ footer img {
 input[type=text],
 [type=tel],
 [type=email],
-select {
-  size: auto;
+[textarea] select {
+    size: auto;
     width: 35%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -151,7 +178,6 @@ input[type=submit] {
     cursor: pointer;
     padding: 15px 40px;
     font-size: 20px;
-  
 }
 
 input[type=submit]:hover {
@@ -163,74 +189,91 @@ input[type=submit]:hover {
     font-weight: bolder;
     font-size: 25px;
 }
-.formback{
-  margin-left: 30%;
+
+.formback {
+    margin-left: 30%;
 }
+
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
 .flip-card {
-  width: 200px;
-  height: 380px;
-  border: 1px solid #f1f1f1;
-  float: left;
-  border-radius: 5%;
-  margin-left: 20px;
-  perspective: 1000px /* Remove this if you don't want the 3D effect */
+    width: 200px;
+    height: 380px;
+    border: 1px solid #f1f1f1;
+    float: left;
+    border-radius: 5%;
+    margin-left: 20px;
+    perspective: 1000px/* Remove this if you don't want the 3D effect */
 }
+
 
 /* This container is needed to position the front and back side */
+
 .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  border-radius: 5%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 5%;
 }
+
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
+
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  border-radius: 5%;
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    border-radius: 5%;
 }
 
+
 /* Style the back side */
+
 .flip-card-back {
-  color: rgb(255, 255, 255);
-  transform: rotateY(180deg);
-  border-radius: 5%;
-  font-family: cursive;
-  font-weight: bolder;
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    border-radius: 5%;
+    font-family: cursive;
+    font-weight: bolder;
 }
 
 .textcard {
     text-align: center;
 }
+
 .crcard {
-  display: flex;
-  justify-content: space-around;
-}
-img {
-  border-radius: 50%;
-}
-.textcolor1 {
-  color: #cf7575;
-  font-weight: bolder;
-  margin-left: 2%;
-  font-size: 35px;
+    display: flex;
+    justify-content: space-around;
 }
 
-h1{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: rgb(255, 255, 255);
-font-size: 40px;
+img {
+    border-radius: 50%;
+}
+
+.textcolor1 {
+    color: #cf7575;
+    font-weight: bolder;
+    margin-left: 2%;
+    font-size: 35px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
 }
